@@ -1,10 +1,13 @@
 import React from "react";
 import useScroll from "../../../hooks/useScroll";
-import InformationHome from "../../../pages/InformationHome";
+import MainPage from "../../../pages/MainPage";
+import BeerPage from "../../../pages/BeerPage"
 import InformationHomeTwo from "../../../pages/InformationHomeTwo";
+import OnlyBeer from "../../../pages/OnlyBeer";
 import NavBar from "../../organisms/NavBar";
 
 import "./styles.scss";
+
 
 const Home = () => {
   const {scrollPosition} = useScroll()
@@ -14,8 +17,10 @@ const Home = () => {
       <div className="container_home">
         <NavBar scrollPosition={scrollPosition} />
 
-        <InformationHome />
+        <MainPage />
         <InformationHomeTwo />
+        <BeerPage/>
+        <OnlyBeer />
       </div>
     </>
   );

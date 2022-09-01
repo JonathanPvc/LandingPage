@@ -1,10 +1,25 @@
 import React from 'react'
-import image from "../../assets/img/skolbrother.jpg"
+
+import { Logos } from '../../components/atoms/Logos'
+import CardPageTwo from '../../components/molecules/CardPageTwo'
+import { informationLogos } from '../../components/molecules/CardPageTwo/constants'
+import "./styles.scss"
 
 const InformationHomeTwo = () => {
   return (
-    <div className='container_informationhome'>
-      <img  src={image} alt="" />
+    <div className='container_pageinformation'>
+    
+
+      <CardPageTwo />
+
+      <div className="container_logos-page" >
+   
+   {
+       informationLogos.map(item => <Logos {...item} />)
+   }
+
+
+ </div>
     </div>
   )
 }
