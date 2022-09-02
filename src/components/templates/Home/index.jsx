@@ -7,6 +7,7 @@ import OnlyBeer from "../../../pages/OnlyBeer";
 import NavBar from "../../organisms/NavBar";
 
 import "./styles.scss";
+import MapPage from "../../../pages/MapPage";
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <InformationHomeTwo />
         <BeerPage/>
         <OnlyBeer />
+        <MapPage />
       </div>
     </>
   );

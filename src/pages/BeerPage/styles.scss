@@ -41,3 +41,22 @@
   background: white;
     width: 40%;
 }
+
+.container_itemsbeer{
+  display: flex;
+  flex-direction: column;
+  height: 81%;
+  width: 100%;
+  background: #ffffff;
+  justify-content: space-around;
+}
+
+.item-beer{
+  background: #F0F0EE;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+ 
+
+
+}

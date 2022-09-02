@@ -6,3 +6,65 @@
     background-image: url("../../assets/img/friendshome.jpg");
 }
 
+.container_socialbarhome{
+    background: transparent;
+    position: relative;
+    width: 14%;
+    left: 9%;
+    bottom: -50%;
+
+}
+
+
+.container_carrosel{
+
+    height: 60%;
+    width: 24%;
+    position: relative;
+    left: 55%;
+    bottom: 20%;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container_socialbarhome {
+        width: 50%;
+        position: relative;
+        top: 34%;
+        right: -2%;
+        margin: 0;
+        padding: 0;
+    
+     
+    }
+
+    .container_navbar {
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        height: 12%;
+        color: white;
+        margin: 0;
+    }
+
+    .container__texthomecard {
+        width: 55%;
+        position: relative;
+        top: 20%;
+        right: -9%;
+        margin: 0;
+        padding: 0;}
+
+  }
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .container_main_page {
+      margin-bottom: 1.5rem;
+      padding-bottom: 20px;
+      padding-top: 10px;
+    }
+    .container_main_page {
+      padding-top: 0%;
+     
+    }
+}
