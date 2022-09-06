@@ -20,7 +20,7 @@ const MapPage = () => {
 
         <SocialBar />
         </div>
-      <img className="footer-logo" src={image} alt="logo" />
+      <img className="footer-logo" src={image} alt="logo" width={100} />
         <p className="footer-number">800 343-34.34</p>
       </div>
     </div>

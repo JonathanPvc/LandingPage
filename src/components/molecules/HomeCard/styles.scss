@@ -4,16 +4,15 @@
     padding: 0;
 
 }
-
-.container__texthomecard{
-
-    width: 36%;
-    position: relative;
-    top: 32%;
-    right: -9%;
+.container__texthomecard {
+    width: 35%;
     margin: 0;
     padding: 0;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .textboxbigletter{

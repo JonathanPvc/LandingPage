@@ -18,13 +18,13 @@ const BeerCarrosel = () => {
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src={imgmain}class="d-block w-100" alt="2" width="450" height="600"/>
+        <img src={imgmain}class="d-block" alt="2" width="450" height="600"/>
       </div>
       <div class="carousel-item">
-        <img src={imgmain} class="d-block w-100" alt="4" />
+        <img src={imgmain} class="d-block" alt="4" />
       </div>
       <div class="carousel-item">
-        <img src={imgbeer} class="d-block w-100" alt="6"/>
+        <img src={imgbeer} class="d-block" alt="6"/>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

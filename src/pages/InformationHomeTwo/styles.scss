@@ -1,25 +1,35 @@
-.container_pageinformation{
-
+.container_pageinformation {
     width: 100%;
     height: 100vh;
     background-image: url("../../assets/img/backgroundtwo.png");
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 
-.container_logos-page{
-    position: relative;
-    width: 51%;
-    right: -42%;
-    justify-content: space-around;
+
+.container_card-page {
     display: flex;
-    top: 45%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 79%;
+    width: 96%;
+}
+
+.container_cardpagetwo {
+    color: white;
+    height: 32%;
+}
+
+.container_logos{
+    display: flex;
+    flex-direction: row;
     color:white;
+    width: 46%;
 }
-.container_logos-page {
-    display: flex;
-    font-size: 1.5rem;
-}
-  
 
 @media screen and (min-width: 600px) and (max-width: 1023px){
 
