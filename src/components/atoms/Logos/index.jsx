@@ -1,16 +1,17 @@
 import * as React from "react";
-
+import "./style.scss"
 
  export function Logos (props) {
-    const {title, icon} = props
+    const {title, icon, contents} = props
   
     return (
      
         <div>
             {icon}
-            <span>
+            <h4 >
                 {title}
-            </span>
+            </h4>
+            <h4>{contents} </h4>
       </div>
     );
   }

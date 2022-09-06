@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss"
+import "./styles.scss";
 
 const CardImageText = () => {
   return (
@@ -7,14 +7,13 @@ const CardImageText = () => {
       <div className="background_card"></div>
 
       <div className="container_textfriendsbeer">
-        <p className="tittle_friendsbeer">"SUNT IN CULPA" QUI</p>
-        <h2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+        <p className="tittle_friendsbeer">UN PARCHE DE PURA AMISTAD</p>
+        <h2 className="description_beer">
+          Poker, el amigo que une a los amigos.
+          <br />
+          Queremos seguir promoviendo la campaña de Poker, unir a las personas
+          por medio de momentos inolvidables. Disfruta de todos nuestros
+          productos y destapa grandes momentos con tus amigos.
         </h2>
       </div>
     </div>

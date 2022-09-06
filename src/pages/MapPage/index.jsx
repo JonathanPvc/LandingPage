@@ -9,16 +9,19 @@ const MapPage = () => {
   return (
     <div className="container_pagemap">
       <div className="container_tittlelastpage">
-        <p className="p"> UT ENIM AD MINIM</p>
+        <p className="p"> ENCUENTRANOS</p>
       </div>
 
       <div className="container_google-map">
         <GoogleMaps />
       </div>
       <div className="container_footer">
+        <div className="container_footersocial">
+
         <SocialBar />
-      <img src={image} alt="logo" />
-        <p>800 343-34.34</p>
+        </div>
+      <img className="footer-logo" src={image} alt="logo" />
+        <p className="footer-number">800 343-34.34</p>
       </div>
     </div>
   );

@@ -1,29 +1,26 @@
 import React from "react";
 
-import "./styles.scss"
+import "./styles.scss";
 const CardPageTwo = () => {
   return (
     <div className="container_cardpagetwo">
       <div>
-        <p className="p">SUNT IN CULPA </p>
-        <p className="p">QUI OFFICIA </p>
-        <p className="p">DESERUNT MOLLIT </p>
+        <p className="p">EL SABOR PERFECTO PARA COMPARTIR </p>
       </div>
 
       <div>
         <h4 className="infotext">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit curae montes
-          quisque morbi, ad porttitor class pellentesque ullamcorper faucibus
-          semper velit venenatis aptent. Nunc at per elementum nisl inceptos
-          tempus faucibus facilisi augue porta, convallis massa diam proin fames
-          urna lacus molestie pharetra, odio interdum malesuada vivamus
-          vulputate risus sollicitudin magna varius. Per tempus sollicitudin
-          parturient euismod felis class proin turpis, est habitasse dapibus
-          maecenas eros libero at.
+          Para todos los amantes del buen beber en Colombia, Weeks trae a
+          ustedes un nuevo concepto y una nueva experiencia alrededor del licor
+          nacional e internacional, entre estos encontrará cerveza, aguardiente,
+          champaña, brandy, ron, whisky, vodka, vinos, tequila, ginebra entre
+          otros.
+          <br />
+          Nuestro mayor deseo no es solo vender sino que la persona que nos
+          visite encuentre todo aquello que necesite y que podamos asesorarlo de
+          tal manera que se sienta como en casa.
         </h4>
       </div>
-
-  
     </div>
   );
 };

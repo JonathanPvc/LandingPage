@@ -2,16 +2,18 @@ import {  BeerBottle,  BeerIcon, SkolBeer  } from "../../../assets/svgComponent/
 
 export const informationLogos = [
     {
-        title: 'Lorem iosum dolor ',
-        icon: <BeerBottle />
+        
+        icon: <BeerBottle width="62" height="62"/>,
+    
+        title : 'Destapa felicidad con los tuyos. '
     },
     {
-        title: 'Lorem iosum dolor ',
-        icon: <SkolBeer />
+        title: 'Productos de calidad premium. ',
+        icon: <SkolBeer width="62" height="62"/>
     },
     {
-        title: 'Lorem iosum dolor ',
-        icon: <BeerIcon />
+        title: 'Disfruta cada momento con nosotros.' ,
+        icon: <BeerIcon width="62" height="62"/>
     }
 
     

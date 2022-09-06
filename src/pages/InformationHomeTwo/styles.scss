@@ -12,7 +12,85 @@
     right: -42%;
     justify-content: space-around;
     display: flex;
-    top: 33%;
+    top: 45%;
     color:white;
 }
+.container_logos-page {
+    display: flex;
+    font-size: 1.5rem;
+}
   
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+
+    .p{
+        font-size: 35px;
+        background-color: aqua;
+    }
+    .container_cardpagetwo {
+        position: relative;
+        height: 66%;
+        width: 40%;
+        right: -50%;
+        color: #7932bc;
+        top: 0;
+  }
+
+  .infotext {
+    font-size: 1rem;
+    margin: 0;
+
+}
+
+.container_logos-page {
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    background: blue;
+    color: white;
+    right: 0;
+    top: 0;
+}
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+
+    .p{
+        font-size: 18px;
+        background-color: aqua;
+    }
+    .container_cardpagetwo {
+        position: relative;
+        height: 66%;
+        width: 40%;
+        right: -50%;
+        color: #7932bc;
+        top: 0;
+  }
+
+  
+    .infotext {
+        font-size: 10px;
+        margin: 0;
+        position: relative;
+        height: 282px;
+        width: 150px;
+        text-align: center;
+    }
+
+
+.container_logos-page {
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    background: blue;
+    color: white;
+    right: 0;
+    top: 0;
+}
+
+}

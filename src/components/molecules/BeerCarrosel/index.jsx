@@ -2,32 +2,40 @@
 import "./styles.scss"
 
 import React from 'react'
-import im1 from '../../../assets/img/Coupleofbeers.png'
+import imgmain from '../../../assets/img/Coupleofbeers.png'
+import imgone from '../../../assets/img/Pokerbeer.png'
+import imgbeer from '../../../assets/img/Trigobeer.png'
+
 
 const BeerCarrosel = () => {
   return (
     
-     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img className="d-block w-100" src={im1} alt="First slide"/>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src={imgmain}class="d-block w-100" alt="2" width="450" height="600"/>
+      </div>
+      <div class="carousel-item">
+        <img src={imgmain} class="d-block w-100" alt="4" />
+      </div>
+      <div class="carousel-item">
+        <img src={imgbeer} class="d-block w-100" alt="6"/>
+      </div>
     </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="../../../assets/img/Trigobeer.png" alt="Second slide"/>
-    </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="../../../assets/img/backgroundtwo.png" alt="Third slide"/>
-    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </a>
-</div>
     
   )
 }

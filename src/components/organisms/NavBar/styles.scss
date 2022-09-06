@@ -35,3 +35,43 @@
     font-size: xx-large;
    
   }
+
+  @media screen and (min-width: 600px) and (max-width: 1023px){
+    .container_navbar {
+      width: 100%;
+      display: flex;
+      position: fixed;
+      top: 0;
+      height: 17%;
+      color: #ffffff;
+      margin: 0;
+  }
+
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 559px) {
+    .numberphone {
+  
+      position: relative;
+      top: 45%;
+      font-size: small;
+  }
+  .container_navbar {
+    width: 58%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 10%;
+    color: white;
+    margin: 0;
+}
+.burger-form-logo {
+  width: 24%;
+  left: 36px;
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin-left: 20px;
+}
+}
+  

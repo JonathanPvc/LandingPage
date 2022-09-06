@@ -11,33 +11,33 @@ const BeerPage = () => {
         <CardImageText />
       </div>
       <div className="containerrighttpage">
-        <p className="title">BEER WEEK</p>
+        <p className="title">SEMANA CERVECERA</p>
 
         <div className="container_itemsbeer">
           <div className="item-beer">
           <img src={bottle} alt=""/>
           <div>
-            <h1>Lorem ipsum dolor</h1>
+            <h1>Cerveza Poker</h1>
 
-            <h2>Consectetur adipicing</h2>
+            <h2 >Poker botella 330 ml</h2>
 
           </div>
           </div>
           <div className="item-beer">
           <img src={beer} alt=""/>
           <div>
-            <h1>Lorem ipsum dolor</h1>
+            <h1>Cerveza Budweiser</h1>
 
-            <h2>Consectetur adipicing</h2>
+            <h2>Budweiser botella 330 ml</h2>
 
           </div>
           </div>
           <div className="item-beer">
           <img src={logo} alt=""/>
           <div>
-            <h1>Lorem ipsum dolor</h1>
+            <h1>Cerveza Club Colombia</h1>
 
-            <h2>Consectetur adipicing</h2>
+            <h2>Club colombia trigo 330 ml</h2>
 
           </div>
           </div>
