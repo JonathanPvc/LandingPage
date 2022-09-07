@@ -1,4 +1,45 @@
-.logos_beer{
+.container_icons{
+
     display: flex;
-    
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
+
+.container_descriptions-icons{
+    font-size: 1.5rem;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .logos_beer{
+        display: flex;
+        
+    }
+    
+    .container_icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container_descriptions-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container_icons{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    }

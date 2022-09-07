@@ -1,98 +1,51 @@
 .container_pageinformation {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../../assets/img/backgroundtwo.png");
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/backgroundtwo.png");
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
-
-
 .container_card-page {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-direction: column;
-    height: 79%;
-    width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  height: 79%;
+  width: 96%;
 }
 
 .container_cardpagetwo {
-    color: white;
-    height: 32%;
+  color: white;
+  height: 32%;
 }
 
-.container_logos{
-    display: flex;
-    flex-direction: row;
-    color:white;
-    width: 46%;
+.container_logos {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 46%;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .p {
+    font-size: 35px;
+  }
+  .container_cardpagetwo {
+    width: 40%;
 
-    .p{
-        font-size: 35px;
-        background-color: aqua;
-    }
-    .container_cardpagetwo {
-        position: relative;
-        height: 66%;
-        width: 40%;
-        right: -50%;
-        color: #7932bc;
-        top: 0;
+    color: #ffffff;
+    top: 0;
   }
 
   .infotext {
     font-size: 1rem;
     margin: 0;
-
-}
-
-.container_logos-page {
-    position: relative;
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
-    background: blue;
-    color: white;
-    right: 0;
-    top: 0;
-}
-
-}
-
-
-@media screen and (min-width: 320px) and (max-width: 599px){
-
-    .p{
-        font-size: 18px;
-        background-color: aqua;
-    }
-    .container_cardpagetwo {
-        position: relative;
-        height: 66%;
-        width: 40%;
-        right: -50%;
-        color: #7932bc;
-        top: 0;
   }
 
-  
-    .infotext {
-        font-size: 10px;
-        margin: 0;
-        position: relative;
-        height: 282px;
-        width: 150px;
-        text-align: center;
-    }
-
-
-.container_logos-page {
+  .container_logos-page {
     position: relative;
     width: 100%;
     justify-content: space-around;
@@ -101,6 +54,89 @@
     color: white;
     right: 0;
     top: 0;
+  }
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container_pageinformation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-image: url("../../assets/img/MILXMIL2.png");
+    background-position: center;
+  }
+
+  .container_card-page {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 73%;
+    width: 100%;
+  }
+
+  .container_cardpagetwo {
+    height: 66%;
+    width: 70%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 17px;
+  }
+
+  .p {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: x-large;
+  }
+
+  .infotext {
+    font-size: 1rem;
+  }
+
+  .container_logos {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    margin-top: 42%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container_card-page {
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.container_cardpagetwo {
+  width: 40%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 73%;
+  align-items: stretch;
+  margin: 16% 7%;
+}
+  .container_pageinformation {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .container_logos {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+}
 }

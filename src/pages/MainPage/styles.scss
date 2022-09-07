@@ -1,112 +1,118 @@
-
-
 .container_main_page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url("../../assets/img/friendshome.jpg");
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container_socialbarhome {
+  background: transparent;
+  position: relative;
+  width: 14%;
+  left: 9%;
+  bottom: -50%;
+}
+
+.container_carrosel {
+  height: 67%;
+  width: 24%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container_main_page {
     width: 100%;
     height: 100vh;
     display: flex;
-    background-image: url("../../assets/img/friendshome.jpg");
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-.container_socialbarhome{
-    background: transparent;
-    position: relative;
-    width: 14%;
-    left: 9%;
-    bottom: -50%;
-
-}
-
-
-.container_carrosel{
-
-    height: 60%;
-    width: 24%;
-    position: relative;
+    background-image: url("../../assets/img/MILXMIL.png");
     
 }
 
+.container__texthomecard {
+  width: 50%;
+  text-align: center;
+  height: 57%;
+  margin-top: 15%;
+}
+  .textboxone {
+    margin: 0px;
+    color: white;
+    padding: 0;
+    font-size: larger;
+  }
+  .container__texthomecard {
+    width: 50%;
+    text-align: center;
+    height: 57%;
+}
+  
+ 
 
-  @media screen and (min-width: 600px) and (max-width: 768px) {
-    .textboxone {
-        margin: 0px;
-        color: white;
-        padding: 0;
-        font-size: larger;
+  .container_carrosel {
+    height: 42%;
+    width: 27%;
+    background: transparent;
+    .carousel-item {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 54%;
+       
+      }
     }
-    .container__texthomecard {
-        top: 19%;
-        right: -9%;
-        margin: 0;
-        padding: 0;
-    }
-    .container_socialbarhome {
-        width: 42%;
-        margin: 0;
-        padding: 0;
-    }
+}
+}
 
-    .social-container {
-      
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .container_main_page {
         width: 100%;
-        top: 0;
+        height: 100vh;
         display: flex;
-        
-    }
-
-    .container_carrosel{
-        
-        height: 60%;
-        width: 24%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         position: relative;
-        left: 69%;
-        background: azure;
-        bottom: 20%;
+        background-image: url("../../assets/img/MILXMIL.png");
+        background-position: center;
+    }
+  .textboxone {
+    margin: 0px;
+    color: white;
+    padding: 0;
+    font-size: small;
+  }
+  .container__texthomecard {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 35%;
+    margin-top: 80px;
+}
+  .textboxbigletter {
+    margin: 0px;
+    color: white;
+    padding: 0;
+  }
 
+  .container_carrosel {
+    height: 55%;
+    width: 100%;
+    background: transparent;
+    .carousel-item {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 35%;
+       
+      }
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 599px) {
-
-    .textboxone {
-        margin: 0px;
-        color: white;
-        padding: 0;
-        font-size: small;
-    }
-    .container__texthomecard {
-        margin: 0;
-        padding: 0;
-        height: 265px;
-    }
-    .textboxbigletter {
-        margin: 0px;
-        color: white;
-        padding: 0;
-    }
-    .container_socialbarhome {
-        width: 81%;
-        position: relative;
-        top: 43%;
-    }
-
-    .social-container {
-      
-        width: 100%;
-        top: 0;
-        display: flex;
-       
-    }
-
-    .container_carrosel {
-        height: 50%;
-        width: 24%;
-        position: relative;
-        left: 68%;
-        background: transparent;
-        bottom: 10%;
-    }
 }

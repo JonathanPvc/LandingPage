@@ -1,6 +1,6 @@
 import BeerCarrosel from "../../components/molecules/BeerCarrosel";
 import HomeCard from "../../components/molecules/HomeCard";
-import SocialBar from "../../components/molecules/SocialBar";
+
 
 import "./styles.scss";
 

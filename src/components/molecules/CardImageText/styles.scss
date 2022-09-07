@@ -1,47 +1,77 @@
-.background_card{
-
-    background-image: url("../../../assets/img/FriendsdrinkingPokerbeer.png");
-    width: 66%;
-    height: 47%;
-    top: 15%;
-    position: relative;
-    left: 15%;
-
+.background_card {
+  background-image: url("../../../assets/img/FriendsdrinkingPokerbeer.png");
+  width: 66%;
+  height: 47%;
 }
 
 .container_card-beerpage {
-    height: 21%;
-    color: white;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: #000000;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: flex-start;
-    height: 80%;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  height: 80%;
+  align-items: center;
 }
-.container_textfriendsbeer{
+.container_textfriendsbeer {
+  width: 60%;
+}
 
-    position: relative;
-    left: 15%;
-    top: 15%;
-    width: 60%;}
+.tittle_friendsbeer {
+  width: 100%;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: xxx-large;
+}
 
-.tittle_friendsbeer{
+.description_beer {
+  color: rgb(252, 252, 252);
+  font-size: 1.8rem;
+}
 
+@media screen and (min-width: 319px) and (max-width: 767px) {
+    .tittle_friendsbeer {
+        font-weight: 900;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      
+      
+      .description_beer {
+        margin-top: 2rem;
+        font-size: 1rem;
+        text-align: justify;
+        background: black;
+      }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tittle_friendsbeer {
     width: 100%;
     font-weight: 900;
     margin: 0;
     padding: 0;
-    font-weight: 900;
-    font-size: xxx-large;
 
+    font-size: 2rem;
+  }
+
+  .description_beer {
+    font-size: calc(0.5rem + 0.9vw);
+    text-align: center;
+    background: rgb(0, 0, 0);
+  }
+
+  .container_descriptions-icons{
+    font-size: 1.7rem;
+
+  }
+.container_descriptions-icons{
+
+  font-size: 1rem;
 }
-
-.description_beer{
-    color: rgb(252, 252, 252);
-    font-size: 1.8rem;
 }
-

@@ -6,12 +6,12 @@ import "./style.scss"
   
     return (
      
-        <div>
+        <div className="container_icons">
             {icon}
-            <h4 >
+            <h4 className="container_descriptions-icons">
                 {title}
             </h4>
-            <h4>{contents} </h4>
+            <h4 className="container_descriptions-icons">{contents} </h4>
       </div>
     );
   }
