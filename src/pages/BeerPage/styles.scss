@@ -216,3 +216,76 @@
 }
 
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1800px){
+ 
+  .title_beer-alone{
+    font-size: x-large;
+  
+  }
+
+  .containerleftpage {
+    position: relative;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    
+}
+.container_card-beerpage {
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+.background_card {
+
+  width: 59%;
+    height: 36%;
+}
+
+
+//.............................................................
+.containerrighttpage {
+  background: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.title {
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  height: 10%;
+  font-size: 4rem;
+}
+.container_itemsbeer {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+.item-beer {
+  background: #F0F0EE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  text-align: center;
+  img{
+    width: 40px;
+        height: auto;
+  }
+}
+
+}
+

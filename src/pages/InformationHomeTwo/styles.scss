@@ -29,22 +29,30 @@
   width: 46%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .p {
-    font-size: 35px;
+
+@media screen and (min-width: 1024px) and (max-width: 2560px){
+
+  .container_card-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+    width: 96%;
   }
+
   .container_cardpagetwo {
-    width: 40%;
+    color: white;
+    height: 81%;
+    width: 46%;
+    margin-top: 6%;
+}
+  
+}
 
-    color: #ffffff;
-    top: 0;
-  }
 
-  .infotext {
-    font-size: 1rem;
-    margin: 0;
-  }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .container_logos-page {
     position: relative;
     width: 100%;
@@ -55,7 +63,52 @@
     right: 0;
     top: 0;
   }
+  .container_card-page {
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
 }
+.infotext {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.container_cardpagetwo {
+  width: 40%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 73%;
+  align-items: stretch;
+  margin: 16% 7%;
+}
+  .container_pageinformation {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .container_logos {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+}
+.p {
+  font-size: 35px;
+}
+
+}
+
+
+
+
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container_pageinformation {
@@ -104,39 +157,4 @@
     width: 100%;
     margin-top: 42%;
   }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .container_card-page {
-    display: flex;
-    justify-content: space-around;
-    height: 90%;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center;
-    flex-wrap: nowrap;
-}
-.container_cardpagetwo {
-  width: 40%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  height: 73%;
-  align-items: stretch;
-  margin: 16% 7%;
-}
-  .container_pageinformation {
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-  }
-  .container_logos {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    width: 100%;
-}
 }
