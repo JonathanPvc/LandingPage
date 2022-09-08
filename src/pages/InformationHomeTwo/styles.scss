@@ -31,21 +31,28 @@
 
 
 @media screen and (min-width: 1024px) and (max-width: 2560px){
+  .infotext {
+    margin-top: 6px;
+    text-align: justify;
+    font-size: 1.3rem;
+}
 
   .container_card-page {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     flex-direction: column;
     height: 100%;
     width: 96%;
   }
 
-  .container_cardpagetwo {
-    color: white;
-    height: 81%;
-    width: 46%;
-    margin-top: 6%;
+
+.container_cardpagetwo {
+  color: white;
+  height: 66%;
+  width: 46%;
+  margin-top: 0%;
+  margin-top: 15%;
 }
   
 }
