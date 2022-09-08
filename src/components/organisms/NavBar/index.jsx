@@ -10,7 +10,7 @@ const NavBar = (props) => {
   
   const className = ['container_navbar']
   
-  if(scrollPosition >= 500){
+  if(scrollPosition >= 1800){
     className.push('image-reduce-navbar')
   }else{
     className.length === 2 && className.pop()
@@ -23,7 +23,7 @@ const NavBar = (props) => {
         <img src={image} alt="logo" />
       </span>
 
-      <p className='numberphone'> 800 343 - 34.34 </p>
+      <p className='numberphone '> 800 343 - 34.34 </p>
    
       </div>
     </>

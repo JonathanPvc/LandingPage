@@ -10,10 +10,11 @@
 
 }
 
-// .image-reduce-navbar > .burger-form-logo > img{
-//     width: 10rem;
-//     height: 10rem;
-// }
+.image-reduce-navbar > .burger-form-logo > img{
+    width: 1rem;
+    height: 1rem;
+    display: none;
+}
 
 .burger-form-logo {
     display: flex;
@@ -58,7 +59,7 @@
       font-size: small;
   }
   .container_navbar {
-    width: 80%;
+    width: 100%;
     display: flex;
     position: fixed;
     top: 0;

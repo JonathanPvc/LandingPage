@@ -22,6 +22,25 @@
   width: 24%;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 2560px){
+  .container_carrosel {
+    height: 42%;
+    width: 27%;
+    background: transparent;
+    .carousel-item {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 54%;
+       
+      }
+    }
+}
+}
+
+
+
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .container_main_page {
     width: 100%;
@@ -32,14 +51,18 @@
     justify-content: center;
     position: relative;
     background-image: url("../../assets/img/MILXMIL.png");
+ 
     
 }
 
 .container__texthomecard {
   width: 50%;
-  text-align: center;
+
   height: 57%;
   margin-top: 15%;
+  
+  
+  
 }
   .textboxone {
     margin: 0px;
@@ -47,12 +70,7 @@
     padding: 0;
     font-size: larger;
   }
-  .container__texthomecard {
-    width: 50%;
-    text-align: center;
-    height: 57%;
-}
-  
+
  
 
   .container_carrosel {
@@ -94,6 +112,7 @@
     width: 90%;
     height: 35%;
     margin-top: 80px;
+    
 }
   .textboxbigletter {
     margin: 0px;
