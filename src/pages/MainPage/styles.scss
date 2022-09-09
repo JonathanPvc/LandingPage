@@ -23,6 +23,25 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1800px) {
+  .burger-form-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    margin: 0 auto;
+    left: 0;
+    height: 80%;
+}
+  .container__texthomecard {
+    width: 46%;
+    margin: 0% 5%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
   .container_carrosel {
     height: 42%;
     width: 43%;
@@ -39,6 +58,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
   .container_main_page {
     width: 100%;
     height: 100vh;
@@ -48,59 +68,46 @@
     justify-content: center;
     position: relative;
     background-image: url("../../assets/img/MILXMIL.png");
-    .container__texthomecard {
-      width: 50%;
-
-      height: 57%;
-      margin-top: 15%;
-    }
-    .textboxone {
-      margin: 0px;
-      color: white;
-      padding: 0;
-      font-size: larger;
-    }
-
-    .container_carrosel {
-      height: 42%;
-      width: 42%;
-      background: transparent;
-      .carousel-item {
-        display: flex;
-        justify-content: center;
-        img {
-          width: 54%;
-        }
-      }
-    }
-  }
-
-  .container__texthomecard {
-    width: 50%;
-
-    height: 57%;
-    margin-top: 15%;
+    background-position: center;
   }
   .textboxone {
     margin: 0px;
     color: white;
     padding: 0;
-    font-size: larger;
+    font-size: 0.7rem;
+  }
+  .container__texthomecard {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+  }
+  .textboxbigletter {
+    margin: 0px;
+    color: white;
+    padding: 0;
+    font-family:initial
   }
 
   .container_carrosel {
-    height: 60%;
-    width: 76%;
-    margin-left: 50px;
+    height: 40%;
+    width: 50%;
+    margin-left: 20px;
 
     background: transparent;
     .carousel-item {
       display: flex;
       justify-content: center;
       img {
-        width: 35%;
+        width: 10%;
       }
     }
+  }
+  .social-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 1%;
   }
 }
 
@@ -120,24 +127,24 @@
     margin: 0px;
     color: white;
     padding: 0;
-    font-size: small;
+    font-size: 0.7rem;
   }
   .container__texthomecard {
     margin: 0;
     padding: 0;
     width: 90%;
-    height: 35%;
-    margin-top: 80px;
+    height: 50%;
   }
   .textboxbigletter {
     margin: 0px;
     color: white;
     padding: 0;
+    font-family:initial
   }
 
   .container_carrosel {
-    height: 66%;
-    width: 76%;
+    height: 40%;
+    width: 70%;
     margin-left: 20px;
 
     background: transparent;
@@ -145,8 +152,14 @@
       display: flex;
       justify-content: center;
       img {
-        width: 35%;
+        width: 10%;
       }
     }
+  }
+  .social-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 1%;
   }
 }

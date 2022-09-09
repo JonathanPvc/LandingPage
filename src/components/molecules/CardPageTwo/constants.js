@@ -5,7 +5,7 @@ export const informationLogos = [
         
         icon: <BeerBottle width="62" height="62"/>,
     
-        title : 'Destapa felicidad con los tuyos. '
+        title : "Destapa felicidad con los tuyos." 
     },
     {
         title: 'Productos de calidad premium. ',

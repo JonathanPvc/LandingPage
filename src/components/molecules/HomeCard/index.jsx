@@ -1,4 +1,6 @@
 import React from "react";
+import MobileStore from "../../atoms/MobileStore";
+import SocialBar from "../SocialBar";
 import "./styles.scss";
 
 const HomeCard = () => {
@@ -8,8 +10,11 @@ const HomeCard = () => {
       <h1 className="textboxbigletter"> DISFRUTA </h1>
       <h1 className="textboxbigletter"> EN TODO </h1>
       <h1 className="textboxbigletter"> LUGAR </h1>
-      <h2 className="textboxone">DESCARGA AHORA WEEKS y empieza a disfrutar de tus fiestas como</h2>
-      <h2 className="textboxone">debe ser, selecciona tu producto y recibe donde estés!!</h2>
+      <h2 className="textboxone">DESCARGA AHORA WEEKS y empieza a  </h2>
+      <h2 className="textboxone">disfrutar de tus fiestas como debe ser,</h2>
+      <h2 className="textboxone"> selecciona tu producto y recibe donde estés!</h2>
+      <MobileStore />    
+      <SocialBar />
     </div>
   );
 };

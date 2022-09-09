@@ -11,7 +11,7 @@ import "./style.scss"
             <h4 className="container_descriptions-icons">
                 {title}
             </h4>
-            <h4 className="container_descriptions-icons">{contents} </h4>
+            <h4 className="container_descriptions-icons2">{contents} </h4>
       </div>
     );
   }

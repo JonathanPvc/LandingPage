@@ -1,0 +1,19 @@
+.container_buttons-store {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  justify-content: center;
+
+  .button-store {
+    height: 100%;
+    width: 100%;
+ 
+  }
+
+  .button-store-app {
+    height: 100%;
+    width: 100%;
+  }
+}
